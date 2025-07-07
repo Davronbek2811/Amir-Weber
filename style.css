@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #3A3330;
+    color: white;
+}
+
+.head{
+    background-image: url(./Img/BgI.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.logo{
+    width: 130px;
+    height: 170px;
+    opacity: 1;
+
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 132px;
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.head-list{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.glava{
+    color: white;
+    padding: 5px 30px;
+    background-color: #3A3330;
+    border: 1px solid #EF6F2E;
+    border-radius: 30px;
+}
+
+.glava:hover{
+    border: 2px solid #BFD73E;
+}
+
+.welcome{
+    display: flex;
+    justify-content: end;
+}
+
+.korzina{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.korzina:hover{
+    color: #BFD73E;
+}
+
+.avtive{
+    color: white;
+    background-color: #3A3330;
+    border: 1px solid #EF6F2E;
+    border-radius: 20px;
+    padding: 5px 50px;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.avtive:hover{
+    border: 2px solid #BFD73E;
+}
+
+
+.welcome-text{
+    background-color: #BFD73E1A;
+    background-position: center;
+    background-size: cover;
+    height: 101px;
+    margin-top: 30px;
+    opacity: 1px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.decs{
+    flex-wrap: wrap;
+    width: 390px;
+}
+
+.expensive{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+
+.Popular{
+    color: white;
+}
+
+.boxer{
+    display: flex;
+    justify-content:space-around;
+}
+
+.box{
+    width: 224px;
+    height: 264px;
+    opacity: 1px;
+    border-radius: 30px;
+    background-color: #2F2D2E;
+    text-align: center;
+    padding: 10px;
+}
+
